@@ -1,0 +1,12 @@
+C:\Users\idune\projects\ServiceDeskPlusApi\bin\Debug\net6.0\ManageEngine.ServiceDeskPlusApi.deps.json
+C:\Users\idune\projects\ServiceDeskPlusApi\bin\Debug\net6.0\ManageEngine.ServiceDeskPlusApi.dll
+C:\Users\idune\projects\ServiceDeskPlusApi\bin\Debug\net6.0\ManageEngine.ServiceDeskPlusApi.pdb
+C:\Users\idune\projects\ServiceDeskPlusApi\obj\Debug\net6.0\ManageEngine.ServiceDeskPlusApi.csproj.AssemblyReference.cache
+C:\Users\idune\projects\ServiceDeskPlusApi\obj\Debug\net6.0\ManageEngine.ServiceDeskPlusApi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\idune\projects\ServiceDeskPlusApi\obj\Debug\net6.0\ManageEngine.ServiceDeskPlusApi.AssemblyInfoInputs.cache
+C:\Users\idune\projects\ServiceDeskPlusApi\obj\Debug\net6.0\ManageEngine.ServiceDeskPlusApi.AssemblyInfo.cs
+C:\Users\idune\projects\ServiceDeskPlusApi\obj\Debug\net6.0\ManageEngine.ServiceDeskPlusApi.csproj.CoreCompileInputs.cache
+C:\Users\idune\projects\ServiceDeskPlusApi\obj\Debug\net6.0\ManageEngine.ServiceDeskPlusApi.dll
+C:\Users\idune\projects\ServiceDeskPlusApi\obj\Debug\net6.0\refint\ManageEngine.ServiceDeskPlusApi.dll
+C:\Users\idune\projects\ServiceDeskPlusApi\obj\Debug\net6.0\ManageEngine.ServiceDeskPlusApi.pdb
+C:\Users\idune\projects\ServiceDeskPlusApi\obj\Debug\net6.0\ref\ManageEngine.ServiceDeskPlusApi.dll
