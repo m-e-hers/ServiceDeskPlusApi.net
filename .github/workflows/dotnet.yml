@@ -26,9 +26,15 @@ jobs:
       run: dotnet build --no-restore
     - name: Test
       run: dotnet test --no-build --verbosity normal  
-    - name: Publish NuGet
-      uses: brandedoutcast/publish-nuget@v2.5.5
+    - name: Publish NuGet packages
+      # You may pin to the exact commit or the version.
+      # uses: dansiegel/publish-nuget@3a5a0d5ddd96d6c36d73586e9e0f3b829c14319f
+      uses: dansiegel/publish-nuget@v1.2
       with:
-          # Filepath of the project to be packaged, relative to root of repository
-          PROJECT_FILE_PATH: ManageEngine.ServiceDeskPlusApi.csproj
+        # NuGet package filename or search pattern
+        filename: "**/*.nupkg"
+        # API key to access the feed
+        apiKey: ${secrets.NUGET_KEY}
+        # NuGet feed URL
+        #feedUrl: # optional, default is https://api.nuget.org/v3/index.json
 
