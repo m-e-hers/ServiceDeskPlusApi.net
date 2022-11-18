@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\idune\\projects\\ServiceDeskPlusApi\\ManageEngine.ServiceDeskPlusApi.csproj",
+      "projectUniqueName": "C:\\Users\\idune\\projects\\ManageEngine.ServiceDeskPlusApi\\ManageEngine.ServiceDeskPlusApi.csproj",
       "projectName": "ManageEngine.ServiceDeskPlusApi",
-      "projectPath": "C:\\Users\\idune\\projects\\ServiceDeskPlusApi\\ManageEngine.ServiceDeskPlusApi.csproj",
+      "projectPath": "C:\\Users\\idune\\projects\\ManageEngine.ServiceDeskPlusApi\\ManageEngine.ServiceDeskPlusApi.csproj",
       "packagesPath": "C:\\Users\\idune\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\idune\\projects\\ServiceDeskPlusApi\\obj\\",
+      "outputPath": "C:\\Users\\idune\\projects\\ManageEngine.ServiceDeskPlusApi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

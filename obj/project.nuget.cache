@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Tq37aAaOrfYRdbh9Uql7GiY/Nhnc+wVeHIEO/a6br+v1f+duwhDuQa+UeRG/ArPb86qULWsn3Unf98gi8sercA==",
+  "dgSpecHash": "cd37zbf7pia9UOIDCN4FRFvrBDyUqUh62cuG8sOdBXdkd7ijTb76g+9XN7YmLgAoIPE86ONlynqLm9nbgHR3PQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\idune\\projects\\ServiceDeskPlusApi\\ManageEngine.ServiceDeskPlusApi.csproj",
+  "projectFilePath": "C:\\Users\\idune\\projects\\ManageEngine.ServiceDeskPlusApi\\ManageEngine.ServiceDeskPlusApi.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
