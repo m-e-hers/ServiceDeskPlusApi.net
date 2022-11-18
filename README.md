@@ -2,14 +2,14 @@
 ## MVC DIExtensions
 <details>
   <summary>Program.cs</summary>
-```c#
+```cs
 builder.Services.AddSdpApiDataSource(builder.Configuration);
 ```
 </details>
 
 <details>
   <summary>ServiceDeskPlusApiDiExtensions.cs</summary>
-```c#
+```cs
 using ManageEngine;
 
 namespace HelpdeskExtensions.Api.DiExtensions
@@ -37,7 +37,7 @@ namespace HelpdeskExtensions.Api.DiExtensions
 
 <details>
   <summary>RandomController.cs</summary>
-```c#
+```cs
 namespace HelpdeskExtensions.Api.Controllers
 {
     [ApiController]
