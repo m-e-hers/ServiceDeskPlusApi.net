@@ -1,14 +1,13 @@
-﻿# Usage examples
+# Usage examples
 ## MVC DIExtensions
-<details>
-  <summary>Program.cs</summary>
-```cs
-builder.Services.AddSdpApiDataSource(builder.Configuration);
-```
-</details>
 
-<details>
-  <summary>ServiceDeskPlusApiDiExtensions.cs</summary>
+#### Program.cs
+```cs
+
+  builder.Services.AddSdpApiDataSource(builder.Configuration);
+```
+
+#### ServiceDeskPlusApiDiExtensions.cs
 ```cs
 using ManageEngine;
 
@@ -33,10 +32,8 @@ namespace HelpdeskExtensions.Api.DiExtensions
     }
 }
 ```
-</details>
 
-<details>
-  <summary>RandomController.cs</summary>
+#### RandomController.cs
 ```cs
 namespace HelpdeskExtensions.Api.Controllers
 {
@@ -55,4 +52,3 @@ namespace HelpdeskExtensions.Api.Controllers
     Request woRequest = await _sdpApi.Request.View(woRequestId);
 //...
 ```
-</details>
