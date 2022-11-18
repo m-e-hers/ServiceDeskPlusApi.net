@@ -41,7 +41,7 @@
     </None>
   </ItemGroup>
   
-  <Target Name="NugetPackAutoVersioning" AfterTargets="Build">
+  <Target Name="NugetPackAutoVersioning" AfterTargets="Rebuild">
     <Exec Command="dotnet pack -p:PackageVersion=$([System.DateTime]::Now.ToString(&quot;yyyy.MM.dd.HHmm&quot;)) --no-build --configuration $(Configuration) --output &quot;$(SolutionDir)nuget&quot;" />
   </Target>
 
