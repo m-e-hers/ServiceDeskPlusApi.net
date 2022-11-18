@@ -10,14 +10,16 @@
     <Company>Softline</Company>
     <Description>Manage Engine Service Desk Plus REST API class library</Description>
     <Copyright>MIT</Copyright>
-    <PackageProjectUrl>github.com/grenudi</PackageProjectUrl>
+    <PackageProjectUrl>https://github.com/m-e-hers/ServiceDeskPlusApi.net</PackageProjectUrl>
     <PackageIcon>png-clipart-green-logo-design-text-logo-thumbnail.png</PackageIcon>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
     <PackageLicenseFile>MIT-LICENSE.txt</PackageLicenseFile>
-    <RepositoryType>git</RepositoryType>
+    <RepositoryType>github</RepositoryType>
     <PackageTags>Manage Engine; ManageEngine; Service Desk Plus; ServiceDeskPlus; ServiceDeskPlusApi; sdpapi; REST API; class library</PackageTags>
     <GenerateDocumentationFile>True</GenerateDocumentationFile>
+    <Version>$([System.DateTime]::Now.ToString(yyyy.MM.dd.HHmm))</Version>
+    <RepositoryUrl>https://github.com/m-e-hers/ServiceDeskPlusApi.net</RepositoryUrl>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
@@ -47,6 +49,7 @@
   </ItemGroup>
   
   <Target Name="NugetPackAutoVersioning" AfterTargets="Rebuild">
+    <RemoveDir Directories="$(OutputDirectory);$(DebugDirectory);nuget" />
     <Exec Command="dotnet pack -p:PackageVersion=$([System.DateTime]::Now.ToString(&quot;yyyy.MM.dd.HHmm&quot;)) --no-build --configuration $(Configuration) --output &quot;$(SolutionDir)nuget&quot;" />
   </Target>
 
